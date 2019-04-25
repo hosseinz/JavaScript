@@ -46,5 +46,31 @@ myPerson.lastName = "Zeiny";
 myPerson.age = 34;
 myPerson.hairColor= "balck";
 
-console.log(myPerson.firstName+myPerson.lastName+" is"+myPerson.age+" and has"+myPerson.hairColor+" Hair");
+console.log(myPerson.firstName+" "+myPerson.lastName+" is "+myPerson.age+" and has "+myPerson.hairColor+" Hair");
 
+//04
+function vehicleType(brand,color){
+    return color+" "+brand;
+}
+console.log(vehicleType("toyota","red"));
+
+//05
+if (3 === 3){
+console.log("yes");
+}
+else{
+console.log("no");
+}
+
+//06
+function vehicle(carName,ageCar,colorCar){
+if(ageCar>1){
+return "a "+colorCar+" used "+carName;
+    
+}
+else {
+    return "a "+colorCar+" new "+carName;
+}
+}
+console.log(vehicle("Ford",2,"white"));
+console.log(vehicle("BMW",0,"gray"));
