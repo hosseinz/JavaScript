@@ -74,3 +74,25 @@ else {
 }
 console.log(vehicle("Ford",2,"white"));
 console.log(vehicle("BMW",0,"gray"));
+
+// 07
+var myArray=["motorbike", "caravan", "bike","car"];
+console.log(myArray.length);
+console.log(myArray[2]);
+myArray.push(["truck"]);
+console.log(myArray);
+
+// 08
+console.log(myArray[2]);
+
+// 09
+function vehicle2(myArray){
+ if(myArray[2]=="car"){
+     return "it is a "+myArray[3];
+ }
+ else {
+     return "No car , it is "+myArray[0];
+ }
+}
+console.log(vehicle2(myArray));
+
